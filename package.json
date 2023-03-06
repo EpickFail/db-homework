@@ -1,0 +1,9 @@
+{
+  "name": "db-homework",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "docker-compose build && docker-compose up & cd ./proxy && docker-compose up"
+  },
+  "dependencies": {
+  }
+}
